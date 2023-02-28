@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+
+* body{
+    margin-top: 3.125em;
+    background-image: url(images/pattern-background-desktop.svg);
+    font-family: "Red Hat Display", sans-serif;
+    background-color: #e0e8ff;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-y: hidden;
+    justify-content: space-around;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    width: 20.438em;
+    height: 35.438em em;
+    border-radius: 20px;
+}
+
+.card-image{
+    width: 100%; 
+    border-radius: 20px 20px 0 0 ;
+}
+
+h1, p {
+    padding: 0.5em;
+}
+
+h1{
+    color: #1F2E55;
+    font-size: 1.75rem;
+    margin-top: 1.25em;
+}
+
+p{
+    color: #717FA6;
+    font-size: 1rem;
+   
+    margin-bottom: 1.25em;
+    text-align: center;
+}
+
+.price{
+    width: 18.563em;
+    height: 5.06em;
+    background-color: #F7F9FF;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 11px;
+}
+
+.change-btn{
+    border: none;
+    background-color: #F7F9FF;
+    text-decoration: underline;
+    font-size: 0.875rem;
+    color: #382AE1;
+}
+.change-btn:hover{
+    color: #766CF1;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.offer{
+    font-size: 1rem;
+}
+
+.payment{
+    width: 18.563em;
+    height: 3em;
+    display: flex;
+    margin-top: 1.25em;
+    align-items: center;
+    background-color: #382AE1;
+    color: white;
+    justify-content: center;
+    border: none;
+    border-radius: 11px;
+    font-size: 1rem;
+    box-shadow: 1px 12px 10px 1px rgba(54, 54, 54, 0.2);
+}
+
+.payment:hover{
+    background-color: #766CF1;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.cencel-value{
+    width: 18em;
+    height: 5em;
+    display: flex;
+    margin-top: 1.25em;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 11px;
+    font-size: 1rem;
+    background-color: white;
+    color: #717FA6;
+} 
+
+.cencel-value:hover{
+    color: #1F2E55;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a{
+    color: #382AE1;
+    font-size: 1rem;
+}
+
+h5{
+    color: #717FA6;
+    font-size: 1rem;
+}
+
+
+.attribution{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} 
+
+@media screen and (min-width: 500px){
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: white;
+        width: 28em;
+        height: 43.563em;
+        border-radius: 20px;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: white;
+        width: 450px;
+        height: 697px;
+        border-radius: 20px;
+    }
+
+    .price{
+        width: 22em;
+        height: 5.5em;
+    }
+
+    .payment{
+        width: 22em;
+        height: 3em;
+    }
+
+    .offer{
+        margin-right: 5em;
+    }
+
+    
+    a{
+        color: #382AE1;
+        font-size: 16px;
+    }
+    
+    h5{
+        color: #717FA6;
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
